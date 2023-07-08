@@ -19,7 +19,7 @@ body {
 }
 
 .magic {
-  background-color: #f9ca24;
+  background-color: #f36144;
   color: #fff;
   font-family: 'Poppins', sans-serif;
   border: 0;
@@ -30,7 +30,7 @@ body {
   position: fixed;
   top: 20px;
   letter-spacing: 1px;
-  box-shadow: 0 3px rgba(249, 202, 36, 0.5);
+  box-shadow: 0 3px rgba(239, 99, 17, 0.5);
   z-index: 100;
 }
 
@@ -50,7 +50,7 @@ body {
   height: 500px;
   width: 500px;
   position: relative;
-  transition: 0.4s ease;
+  transition: 0.7s ease;
 }
 
 .boxes.big {
@@ -69,27 +69,27 @@ body {
   position: relative;
   height: 125px;
   width: 125px;
-  transition: 0.5s ease;
+  transition: 0.7s ease;
 }
 
 .box::after {
   content: '';
-  background-color: #f6e58d;
+  background-color: #e66322;
   position: absolute;
   top: 8px;
   right: -15px;
   height: 100%;
   width: 15px;
-  transform: skewY(40deg);
+  transform: skewY(44deg);
 }
 
 .box::before {
   content: '';
-  background-color: #f9ca24;
+  background-color: #ea5e30;
   position: absolute;
   bottom: -15px;
   left: 8px;
   height: 15px;
   width: 100%;
-  transform: skewX(45deg);
+  transform: skewX(44deg);
 }
